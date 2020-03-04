@@ -1,0 +1,112 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+}
+
+main {
+  font-family: 'Adamina';font-size: 10px;
+  line-height: 18px;
+  letter-spacing: .5px;
+  display: flex;
+  justify-content: center;
+  width: 800px;
+}
+
+h2 {
+    font-family: 'Alatsi';font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.first {
+  text-indent: 20px;
+}
+
+.unorderedList {
+  list-style-type: square;
+}
+
+.anotherUL {
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+li {
+  line-height: 18px;
+}
+
+aside {
+}
+
+.nav {
+  border: 3px solid #8f6960;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+footer {
+
+}
+
+/* unvisited link */
+a:link {
+  color: #8f6960;
+  text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+  color: #bababa;
+}
+
+/* mouse over link */
+a:hover {
+  color: #574844;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #b83f21;
+  background-color: #a6ded9;
+}
+
+/* focus */
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
